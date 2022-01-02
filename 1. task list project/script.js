@@ -31,6 +31,7 @@ function addTask(e) {  // form submited
             taskInput.value = ''; //  after adding the item to task list we are clearing the text field for HTML
       }
       e.preventDefault();// for url link disable we need to use it.
+      // here we using it to prevent reload just after submitting the form.
 }
 
 // Remove Task
